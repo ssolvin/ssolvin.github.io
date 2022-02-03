@@ -1,0 +1,21 @@
+h1 {
+    font-size: 5em;
+}
+
+#nepal_pic {
+    height: 640px;
+}
+
+.social-icon {
+    height: 50px
+}
+
+body {
+    background-color:#161616;
+    color: #fe4531;
+}
+
+a {
+    color: #fe4531;
+    text-decoration: none
+}
