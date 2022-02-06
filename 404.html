@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>Solvin Shrestha</title>
+        <script type='text/javascript'>
+            const redirects = {
+                "resume": "resume.pdf"
+            }
+
+            const path = windows.location.pathname.substring(1).toLowerCase();
+
+            const redirect = redirects[path];
+            if (redirect) {
+                window.location.replace(redirect);
+            }
+        </script>
+    </head>
+</html>
